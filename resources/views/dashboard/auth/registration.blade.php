@@ -17,8 +17,10 @@
 <style>
 
     body{
-	background-image:url(https://wallpapertag.com/wallpaper/full/c/a/a/157415-simplistic-wallpapers-1920x1080-lockscreen.jpg)
-}
+	background-image:url({{url('upload/r1.jfif')}});
+    background-position: center!important;
+    background-size: cover!important;
+    }
 #login-name{
 font-size: 65px;
 font-family: arabic typesetting;
