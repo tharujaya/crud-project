@@ -26,66 +26,50 @@ font-size: 65px;
 font-family: arabic typesetting;
 border-bottom-style: ridge;
 color:white;
-
 }
 #login{
 background-color:rgba(13,13,13,0.2);
 min-height:500px;
 padding: 40px 80px 40px 80px;
-box-shadow: -10px -10px 9px #18269e9d;
-
+box-shadow: -10px -10px 9px #3db5ec9d;
 }
 .user{
 font-size: 20px;
-
 font-family: arabic typesetting;
-
 color: white;
-
 }
-
 #iconn{
-
-background-color: #5cb85c;
-border-color: #4cae4c;
+background-color: #265aa8;
+border-color: #4c8aae;
 color: white;
-
 }
 #iconn1{
-
-background-color: #5cb85c;
-border-color: #4cae4c;
+background-color: #265aa8;
+border-color: #4c8aae;
 color: white;
-
 }
-
 #text1{
-
 	border-radius: 0;
 	height: 30px;
 }
 #text2{
-
 	border-radius: 0;
 	height: 30px;
 }
-
 .btn{
 	width: 50%;
 	float: left;
 	height: 30px;
 	font-size: 16px;
 }
-
 .label_001{
-
 	font-size: 16px;
 	color: white;
 	font-style: italic;
 }
 .login{
     text-decoration: none;
-    color: rgb(9, 11, 136);
+    color: rgb(132, 235, 63);
 }
 </style>
 </head>
@@ -146,7 +130,7 @@ color: white;
 
             </div>
             <br/>
-            <h3>Already a member ? <a href="{{route('login')}}" class="login" >Login </a></h3>
+            <h3 class="user">Already a member ? <a href="{{route('login')}}" class="login" >Login </a></h3>
         </form>
   </div>
 	</div>

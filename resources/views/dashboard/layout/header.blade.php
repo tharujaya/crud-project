@@ -3,7 +3,7 @@
     <meta name="keywords"
           content="unique login form,leamug login form,boostrap login form,responsive login form,free css html login form,download login form">
     <meta name="author" content="leamug">
-    <title>Login Form </title>
+    <title> @yield('title') </title>
     
     <!-- Bootstrap core Library -->
     {{-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> --}}

@@ -1,4 +1,5 @@
 @extends('dashboard.layout.main')
+@section('title','All products') 
 
 @section('content')
 
@@ -9,7 +10,6 @@
         <th>Category</th>
         <th>Name</th>
         <th>Description</th>
-      
         <th>Status</th>
       </tr>
     </thead>

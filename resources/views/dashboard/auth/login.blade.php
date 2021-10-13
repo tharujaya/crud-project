@@ -4,7 +4,7 @@
     @include('dashboard.layout.header')
     <style>
         .login-body {
-    background-image: url('https://i.redd.it/o8dlfk93azs31.jpg')!important;
+    background-image: url({{url('upload/log1.jpg')}})!important;
     background-position: center!important;
     background-size: cover!important;
     -webkit-font-smoothing: antialiased;
